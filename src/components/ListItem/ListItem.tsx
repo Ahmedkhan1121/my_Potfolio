@@ -1,7 +1,7 @@
 import React from 'react'
 import { ListItems } from '@/utils/helper'
 import Link from 'next/link'
-import { ListItemType } from '@/Types/Types'
+// import { ListItemType } from '@/utils/Types/Types'
 
 
 function ListItem() {
@@ -10,10 +10,10 @@ function ListItem() {
         <>
         <ul>
           {
-            ListItems.map((e:ListItemType)=>{
+            ListItems.map((e)=>{
               return(
                 <>
-                <li className='flex flex-col text-center py-[18px] px-[20px] rounded-lg shadow-lg font-bold hover:cursor-pointer capitalize  '><Link href={`${e.id}`}>{e.List}</Link> </li>
+                <li className='flex flex-col text-center py-[18px] px-[20px] rounded-lg shadow-lg font-bold hover:cursor-pointer capitalize  '><Link href={`${e.Link}`}>{e.List}</Link> </li>
                 </>
               )
             })

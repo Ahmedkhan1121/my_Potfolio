@@ -12,7 +12,7 @@ function AboutContent() {
       </div>
       {/* img */}
       <div className='pl-[90px] pt-[20px]'>
-        <h1 className='text-8xl font-bold bg-[#f1c40f] size-[260px] rounded-full flex justify-center items-center  '>A.R</h1>
+        <h1 className='shadow-lg text-8xl font-bold bg-[#f1c40f] size-[230px] rounded-full flex justify-center items-center  '>A.R</h1>
       </div>
     </div>
     {/* Eduction */}

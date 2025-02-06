@@ -1,25 +1,25 @@
-import { ListItemType } from "@/Type/Types";
+import { ListItemType } from "../utils/Types/Types";
 
 
-export let ListItems:ListItemType[]=[
+export const ListItems:ListItemType[]=[
     {
-    id:1,
+    Link:'/',
     List:"Home"
     },
     {    
-    id:2,
+    Link:'/about',
     List:"About"
     },
     {    
-    id:3,
+    Link:'/skill',
     List:"Skill"
     },
     {    
-    id:4,
+    Link:'/project',
     List:"Project"
     },
     {    
-    id:5,
+    Link:'/contact',
     List:"Contact"
     }
 ];

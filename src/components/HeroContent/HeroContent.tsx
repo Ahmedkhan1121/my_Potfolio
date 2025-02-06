@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react'
 import { FaFacebookF } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
@@ -15,10 +16,10 @@ function HeroContent() {
     </div>
 
     <div className='flex  gap-2 m-14 '>
-    <FaFacebookF />
-    <FaInstagram />
-    <FaTwitter />
-    <FaLinkedin />
+    <Link href={`https://www.facebook.com/profile.php?id=100024890910981`}><FaFacebookF /></Link>
+    <Link href={`https://www.instagram.com/ahmedraza094/profilecard/?igsh=MTdpYjgxOHJjcGdyag==`}><FaInstagram /></Link>
+    <Link href={`https://www.linkedin.com/in/ahmed-khan-a30500253/`}><FaLinkedin /></Link>
+   <Link href={`facebook.com/share/LoQNouMCGCC9ejDm`}> <FaTwitter /></Link>
     </div>
     </>
   )
