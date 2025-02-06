@@ -51,7 +51,7 @@ function Contact() {
       <input className='shadow-lg outline-none  w-[450px] p-2' type="text" name="userNumber" id="" value={inputValue.userNumber} onChange={(e)=>OnHandelInput(e)} placeholder='Enter your Number'/>
        {/* userMessage */}
        <label htmlFor="" className='py-5  font-bold '>User Message</label>
-      <textarea rows={8} name="userMessage" id="" className='shadow-lg rounded-md outline-none  w-[450px] p-2 resize-none' placeholder='Enter your Message' value={inputValue.userMessage} onChange={(e)=>OnHandelInput(e)} >UserMessage</textarea>
+      <textarea rows={8} name="userMessage" id="" className='shadow-lg rounded-md outline-none  w-[450px] p-2 resize-none' placeholder='Enter your Message' value={inputValue.userMessage} onChange={(e)=>OnHandelInput(e)} ></textarea>
 
     <button className='mt-[100px] mb-[40px] py-3 px-6 rounded-md font-bold  bg-[#fff200] hover:bg-[#f1c40f]'>Submit</button>
       
